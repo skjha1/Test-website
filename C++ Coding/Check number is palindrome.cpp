@@ -9,7 +9,7 @@ int main()
     no=num; // after reversing the number we will compare.
 
     do{
-        digit=num%10;
+        digit=num%10; 
         rev=rev*10+digit;
         num/=10;
     }while(num!=0);
